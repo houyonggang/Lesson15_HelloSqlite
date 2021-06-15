@@ -1,0 +1,32 @@
+// Top-level build file where you can add configuration options common to all sub-projects/modules.
+buildscript {
+
+    repositories {
+        google()
+        jcenter()
+        maven {
+            //阿里云Maven仓库地址
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        }
+    }
+    dependencies {
+        classpath "com.android.tools.build:gradle:4.0.2"
+        classpath 'com.jakewharton:butterknife-gradle-plugin:10.2.1'
+        // 添加emas-services插件
+        classpath 'com.aliyun.ams:emas-services:1.0.1'
+    }
+}
+
+allprojects {
+    repositories {
+        google()
+        jcenter()
+        maven {
+            url 'http://maven.aliyun.com/nexus/content/repositories/releases/'
+        }
+    }
+}
+
+task clean(type: Delete) {
+    delete rootProject.buildDir
+}
