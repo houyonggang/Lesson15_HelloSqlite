@@ -2,6 +2,7 @@ package com.example.lesson15_hellosqlite;
 
 import android.app.Application;
 
+import com.example.lesson15_hellosqlite.http.HttpUtils;
 import com.taobao.sophix.SophixManager;
 
 /**

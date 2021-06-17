@@ -1,5 +1,6 @@
 package com.example.lesson15_hellosqlite;
 
+import android.annotation.SuppressLint;
 import android.app.Activity;
 import android.content.ContentValues;
 import android.content.Context;
@@ -46,6 +47,8 @@ public class MainActivity extends Activity {
     private SQLiteDatabase db;//SQLiteDatabase对象
     private String db_name = "gallery.sqlite";//数据库名
     private String table_name = "pic";//表名
+    @SuppressLint("StaticFieldLeak")
+    public static MainActivity instance;
     final DbHelper helper = new DbHelper(this, db_name, null, 1);//辅助类名
     private ContentValues contentValues;//ContentValues对象
     private Context mContext;
@@ -54,6 +57,7 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+        instance = MainActivity.this;
         ButterKnife.bind(this);
         mContext = MainActivity.this;
         initData();
