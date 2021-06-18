@@ -10,6 +10,9 @@ package com.example.lesson15_hellosqlite.utils;
 public class Session {
 
     public static final String SESSION_PREFERENCE_NAME = "session";
+    public static final String IS_LOGIN = "is_login";//是否已登录
+    public static final String USER_NAME = "user_name";//用户名
+    public static final String USER_PASSWORD = "user_password";//登录密码
     private String token;
     private static Session instance = new Session();
 

@@ -3,6 +3,7 @@ package com.example.lesson15_hellosqlite;
 import android.app.Application;
 
 import com.example.lesson15_hellosqlite.http.HttpUtils;
+import com.example.lesson15_hellosqlite.utils.sharePreferences.SharedPreferencesManager;
 import com.taobao.sophix.SophixManager;
 
 /**
@@ -17,6 +18,7 @@ public class BaseApplication extends Application {
     public void onCreate() {
         super.onCreate();
         SophixManager.getInstance().queryAndLoadNewPatch();
+        SharedPreferencesManager.getInstance().initPreferences(this);
     }
 
 }

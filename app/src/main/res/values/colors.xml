@@ -1,199 +1,253 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<resources
-    xmlns:tools="http://schemas.android.com/tools">
-    <color name="green1" tools:ignore="MissingDefaultResource">#31C27C</color>
-    <color name="hui" tools:ignore="MissingDefaultResource">#CFCFCF</color>
-    <color name="green2" tools:ignore="MissingDefaultResource">#1E1E1E</color>
-    <color name="seckill" tools:ignore="MissingDefaultResource">#323232</color>
-    <color name="white">#ffffff</color><!--白色 -->
-    <color name="ivory" tools:ignore="MissingDefaultResource">#fffff0</color><!--象牙色 -->
-    <color name="lightyellow" tools:ignore="MissingDefaultResource">#ffffe0</color><!--亮黄色 -->
-    <color name="snow" tools:ignore="MissingDefaultResource">#fffafa</color><!--雪白色 -->
-    <color name="floralwhite" tools:ignore="MissingDefaultResource">#fffaf0</color><!--花白色 -->
-    <color name="lemonchiffon" tools:ignore="MissingDefaultResource">#fffacd</color><!--柠檬绸色 -->
-    <color name="cornsilk" tools:ignore="MissingDefaultResource">#fff8dc</color><!--米绸色 -->
-    <color name="seaShell" tools:ignore="MissingDefaultResource">#fff5ee</color><!--海贝色 -->
-    <color name="lavenderblush" tools:ignore="MissingDefaultResource">#fff0f5</color><!--淡紫红 -->
-    <color name="papayawhip" tools:ignore="MissingDefaultResource">#ffefd5</color><!--番木色 -->
-    <color name="blanchedalmond" tools:ignore="MissingDefaultResource">#ffebcd</color><!--白杏色 -->
-    <color name="mistyrose" tools:ignore="MissingDefaultResource">#ffe4e1</color><!--浅玫瑰色 -->
-    <color name="bisque" tools:ignore="MissingDefaultResource">#ffe4c4</color><!--桔黄色 -->
-    <color name="moccasin" tools:ignore="MissingDefaultResource">#ffe4b5</color><!--鹿皮色 -->
-    <color name="navajowhite" tools:ignore="MissingDefaultResource">#ffdead</color><!--纳瓦白 -->
-    <color name="peachpuff" tools:ignore="MissingDefaultResource">#ffdab9</color><!--桃色 -->
-    <color name="gold" tools:ignore="MissingDefaultResource">#ffd700</color><!--金色 -->
-    <color name="pink">#ffc0cb</color><!--粉红色 -->
-    <color name="lightpink" tools:ignore="MissingDefaultResource">#ffb6c1</color><!--亮粉红色 -->
-    <color name="orange" tools:ignore="MissingDefaultResource">#ffa500</color><!--橙色 -->
-    <color name="lightsalmon" tools:ignore="MissingDefaultResource">#ffa07a</color><!--亮肉色 -->
-    <color name="darkorange" tools:ignore="MissingDefaultResource">#ff8c00</color><!--暗桔黄色 -->
-    <color name="coral" tools:ignore="MissingDefaultResource">#ff7f50</color><!--珊瑚色 -->
-    <color name="hotpink" tools:ignore="MissingDefaultResource">#ff69b4</color><!--热粉红色 -->
-    <color name="tomato" tools:ignore="MissingDefaultResource">#ff6347</color><!--西红柿色 -->
-    <color name="orangered" tools:ignore="MissingDefaultResource">#ff4500</color><!--红橙色 -->
-    <color name="deeppink" tools:ignore="MissingDefaultResource">#ff1493</color><!--深粉红色 -->
-    <color name="fuchsia" tools:ignore="MissingDefaultResource">#ff00ff</color><!--紫红色 -->
-    <color name="magenta" tools:ignore="MissingDefaultResource">#ff00ff</color><!--红紫色 -->
-    <color name="red" tools:ignore="MissingDefaultResource">#ff0000</color><!--红色 -->
-    <color name="oldlace" tools:ignore="MissingDefaultResource">#fdf5e6</color><!--老花色 -->
-    <color name="lightgoldenrodyellow" tools:ignore="MissingDefaultResource">#fafad2</color><!--亮金黄色 -->
-    <color name="linen" tools:ignore="MissingDefaultResource">#faf0e6</color><!--亚麻色 -->
-    <color name="antiquewhite" tools:ignore="MissingDefaultResource">#faebd7</color><!--古董白 -->
-    <color name="salmon" tools:ignore="MissingDefaultResource">#fa8072</color><!--鲜肉色 -->
-    <color name="ghostwhite" tools:ignore="MissingDefaultResource">#f8f8ff</color><!--幽灵白 -->
-    <color name="mintcream" tools:ignore="MissingDefaultResource">#f5fffa</color><!--薄荷色 -->
-    <color name="whitesmoke" tools:ignore="MissingDefaultResource">#f5f5f5</color><!--烟白色 -->
-    <color name="beige" tools:ignore="MissingDefaultResource">#f5f5dc</color><!--米色 -->
-    <color name="wheat" tools:ignore="MissingDefaultResource">#f5deb3</color><!--浅黄色 -->
-    <color name="sandybrown" tools:ignore="MissingDefaultResource">#f4a460</color><!--沙褐色 -->
-    <color name="azure" tools:ignore="MissingDefaultResource">#f0ffff</color><!--天蓝色 -->
-    <color name="honeydew" tools:ignore="MissingDefaultResource">#f0fff0</color><!--蜜色 -->
-    <color name="aliceblue" tools:ignore="MissingDefaultResource">#f0f8ff</color><!--艾利斯兰 -->
-    <color name="khaki" tools:ignore="MissingDefaultResource">#f0e68c</color><!--黄褐色 -->
-    <color name="lightcoral" tools:ignore="MissingDefaultResource">#f08080</color><!--亮珊瑚色 -->
-    <color name="palegoldenrod" tools:ignore="MissingDefaultResource">#eee8aa</color><!--苍麒麟色 -->
-    <color name="violet" tools:ignore="MissingDefaultResource">#ee82ee</color><!--紫罗兰色 -->
-    <color name="darksalmon" tools:ignore="MissingDefaultResource">#e9967a</color><!--暗肉色 -->
-    <color name="lavender" tools:ignore="MissingDefaultResource">#e6e6fa</color><!--淡紫色 -->
-    <color name="lightcyan" tools:ignore="MissingDefaultResource">#e0ffff</color><!--亮青色 -->
-    <color name="burlywood" tools:ignore="MissingDefaultResource">#deb887</color><!--实木色 -->
-    <color name="plum" tools:ignore="MissingDefaultResource">#dda0dd</color><!--洋李色 -->
-    <color name="gainsboro" tools:ignore="MissingDefaultResource">#dcdcdc</color><!--淡灰色 -->
-    <color name="crimson" tools:ignore="MissingDefaultResource">#dc143c</color><!--暗深红色 -->
-    <color name="palevioletred" tools:ignore="MissingDefaultResource">#db7093</color><!--苍紫罗兰色 -->
-    <color name="goldenrod" tools:ignore="MissingDefaultResource">#daa520</color><!--金麒麟色 -->
-    <color name="orchid" tools:ignore="MissingDefaultResource">#da70d6</color><!--淡紫色 -->
-    <color name="thistle" tools:ignore="MissingDefaultResource">#d8bfd8</color><!--蓟色 -->
-    <color name="lightgray" tools:ignore="MissingDefaultResource">#d3d3d3</color><!--亮灰色 -->
-    <color name="lightgrey" tools:ignore="MissingDefaultResource">#d3d3d3</color><!--亮灰色 -->
-    <color name="tan" tools:ignore="MissingDefaultResource">#d2b48c</color><!--茶色 -->
-    <color name="chocolate" tools:ignore="MissingDefaultResource">#d2691e</color><!--巧可力色 -->
-    <color name="peru" tools:ignore="MissingDefaultResource">#cd853f</color><!--秘鲁色 -->
-    <color name="indianred" tools:ignore="MissingDefaultResource">#cd5c5c</color><!--印第安红 -->
-    <color name="mediumvioletred" tools:ignore="MissingDefaultResource">#c71585</color><!--中紫罗兰色 -->
-    <color name="silver" tools:ignore="MissingDefaultResource">#c0c0c0</color><!--银色 -->
-    <color name="darkkhaki" tools:ignore="MissingDefaultResource">#bdb76b</color><!--暗黄褐色 -->
-    <color name="rosybrown" tools:ignore="MissingDefaultResource">#bc8f8f</color><!--褐玫瑰红 -->
-    <color name="mediumorchid" tools:ignore="MissingDefaultResource">#ba55d3</color><!--中粉紫色 -->
-    <color name="darkgoldenrod" tools:ignore="MissingDefaultResource">#b8860b</color><!--暗金黄色 -->
-    <color name="firebrick" tools:ignore="MissingDefaultResource">#b22222</color><!--火砖色 -->
-    <color name="powderblue" tools:ignore="MissingDefaultResource">#b0e0e6</color><!--粉蓝色 -->
-    <color name="lightsteelblue" tools:ignore="MissingDefaultResource">#b0c4de</color><!--亮钢兰色 -->
-    <color name="paleturquoise" tools:ignore="MissingDefaultResource">#afeeee</color><!--苍宝石绿 -->
-    <color name="greenyellow" tools:ignore="MissingDefaultResource">#adff2f</color><!--黄绿色 -->
-    <color name="lightblue" tools:ignore="MissingDefaultResource">#add8e6</color><!--亮蓝色 -->
-    <color name="darkgray" tools:ignore="MissingDefaultResource">#a9a9a9</color><!--暗灰色 -->
-    <color name="darkgrey" tools:ignore="MissingDefaultResource">#a9a9a9</color><!--暗灰色 -->
-    <color name="brown" tools:ignore="MissingDefaultResource">#a52a2a</color><!--褐色 -->
-    <color name="sienna" tools:ignore="MissingDefaultResource">#a0522d</color><!--赭色 -->
-    <color name="darkorchid" tools:ignore="MissingDefaultResource">#9932cc</color><!--暗紫色 -->
-    <color name="palegreen" tools:ignore="MissingDefaultResource">#98fb98</color><!--苍绿色 -->
-    <color name="darkviolet" tools:ignore="MissingDefaultResource">#9400d3</color><!--暗紫罗兰色 -->
-    <color name="mediumpurple" tools:ignore="MissingDefaultResource">#9370db</color><!--中紫色 -->
-    <color name="lightgreen" tools:ignore="MissingDefaultResource">#90ee90</color><!--亮绿色 -->
-    <color name="darkseagreen" tools:ignore="MissingDefaultResource">#8fbc8f</color><!--暗海兰色 -->
-    <color name="saddlebrown" tools:ignore="MissingDefaultResource">#8b4513</color><!--重褐色 -->
-    <color name="darkmagenta" tools:ignore="MissingDefaultResource">#8b008b</color><!--暗洋红 -->
-    <color name="darkred" tools:ignore="MissingDefaultResource">#8b0000</color><!--暗红色 -->
-    <color name="blueviolet" tools:ignore="MissingDefaultResource">#8a2be2</color><!--紫罗兰蓝色 -->
-    <color name="lightskyblue" tools:ignore="MissingDefaultResource">#87cefa</color><!--亮天蓝色 -->
-    <color name="skyblue" tools:ignore="MissingDefaultResource">#87ceeb</color><!--天蓝色 -->
-    <color name="gray">#808080</color><!--灰色 -->
-    <color name="olive" tools:ignore="MissingDefaultResource">#808000</color><!--橄榄色 -->
-    <color name="purple" tools:ignore="MissingDefaultResource">#800080</color><!--紫色 -->
-    <color name="maroon" tools:ignore="MissingDefaultResource">#800000</color><!--粟色 -->
-    <color name="aquamarine" tools:ignore="MissingDefaultResource">#7fffd4</color><!--碧绿色 -->
-    <color name="chartreuse" tools:ignore="MissingDefaultResource">#7fff00</color><!--黄绿色 -->
-    <color name="lawngreen" tools:ignore="MissingDefaultResource">#7cfc00</color><!--草绿色 -->
-    <color name="mediumslateblue" tools:ignore="MissingDefaultResource">#7b68ee</color><!--中暗蓝色 -->
-    <color name="lightslategray" tools:ignore="MissingDefaultResource">#778899</color><!--亮蓝灰 -->
-    <color name="lightslategrey" tools:ignore="MissingDefaultResource">#778899</color><!--亮蓝灰 -->
-    <color name="slategray" tools:ignore="MissingDefaultResource">#708090</color><!--灰石色 -->
-    <color name="slategrey" tools:ignore="MissingDefaultResource">#708090</color><!--灰石色 -->
-    <color name="olivedrab" tools:ignore="MissingDefaultResource">#6b8e23</color><!--深绿褐色 -->
-    <color name="slateblue" tools:ignore="MissingDefaultResource">#6a5acd</color><!--石蓝色 -->
-    <color name="dimgray" tools:ignore="MissingDefaultResource">#696969</color><!--暗灰色 -->
-    <color name="dimgrey" tools:ignore="MissingDefaultResource">#696969</color><!--暗灰色 -->
-    <color name="mediumaquamarine" tools:ignore="MissingDefaultResource">#66cdaa</color><!--中绿色 -->
-    <color name="cornflowerblue" tools:ignore="MissingDefaultResource">#6495ed</color><!--菊兰色 -->
-    <color name="cadetblue" tools:ignore="MissingDefaultResource">#5f9ea0</color><!--军兰色 -->
-    <color name="darkolivegreen" tools:ignore="MissingDefaultResource">#556b2f</color><!--暗橄榄绿 -->
-    <color name="indigo" tools:ignore="MissingDefaultResource">#4b0082</color><!--靛青色 -->
-    <color name="mediumturquoise" tools:ignore="MissingDefaultResource">#48d1cc</color><!--中绿宝石 -->
-    <color name="darkslateblue" tools:ignore="MissingDefaultResource">#483d8b</color><!--暗灰蓝色 -->
-    <color name="steelblue" tools:ignore="MissingDefaultResource">#4682b4</color><!--钢兰色 -->
-    <color name="royalblue" tools:ignore="MissingDefaultResource">#4169e1</color><!--皇家蓝 -->
-    <color name="turquoise" tools:ignore="MissingDefaultResource">#40e0d0</color><!--青绿色 -->
-    <color name="mediumseagreen" tools:ignore="MissingDefaultResource">#3cb371</color><!--中海蓝 -->
-    <color name="limegreen" tools:ignore="MissingDefaultResource">#32cd32</color><!--橙绿色 -->
-    <color name="darkslategray" tools:ignore="MissingDefaultResource">#2f4f4f</color><!--暗瓦灰色 -->
-    <color name="darkslategrey" tools:ignore="MissingDefaultResource">#2f4f4f</color><!--暗瓦灰色 -->
-    <color name="seagreen" tools:ignore="MissingDefaultResource">#2e8b57</color><!--海绿色 -->
-    <color name="forestgreen" tools:ignore="MissingDefaultResource">#228b22</color><!--森林绿 -->
-    <color name="lightseagreen" tools:ignore="MissingDefaultResource">#20b2aa</color><!--亮海蓝色 -->
-    <color name="dodgerblue" tools:ignore="MissingDefaultResource">#1e90ff</color><!--闪兰色 -->
-    <color name="midnightblue" tools:ignore="MissingDefaultResource">#191970</color><!--中灰兰色 -->
-    <color name="aqua" tools:ignore="MissingDefaultResource">#00ffff</color><!--浅绿色 -->
-    <color name="cyan" tools:ignore="MissingDefaultResource">#00ffff</color><!--青色 -->
-    <color name="springgreen" tools:ignore="MissingDefaultResource">#00ff7f</color><!--春绿色 -->
-    <color name="lime" tools:ignore="MissingDefaultResource">#00ff00</color><!--酸橙色 -->
-    <color name="mediumspringgreen" tools:ignore="MissingDefaultResource">#00fa9a</color><!--中春绿色 -->
-    <color name="darkturquoise" tools:ignore="MissingDefaultResource">#00ced1</color><!--暗宝石绿 -->
-    <color name="deepskyblue" tools:ignore="MissingDefaultResource">#00bfff</color><!--深天蓝色 -->
-    <color name="darkcyan" tools:ignore="MissingDefaultResource">#008b8b</color><!--暗青色 -->
-    <color name="teal" tools:ignore="MissingDefaultResource">#008080</color><!--水鸭色 -->
-    <color name="green" tools:ignore="MissingDefaultResource">#008000</color><!--绿色 -->
-    <color name="darkgreen" tools:ignore="MissingDefaultResource">#006400</color><!--暗绿色 -->
-    <color name="blue">#0000ff</color><!--蓝色 -->
-    <color name="mediumblue" tools:ignore="MissingDefaultResource">#0000cd</color><!--中兰色 -->
-    <color name="darkblue" tools:ignore="MissingDefaultResource">#00008b</color><!--暗蓝色 -->
-    <color name="navy" tools:ignore="MissingDefaultResource">#000080</color><!--海军色 -->
-    <color name="black" tools:ignore="MissingDefaultResource">#000000</color><!--黑色 -->
-    <color name="transparent" tools:ignore="MissingDefaultResource">#0000</color><!-- 透明 -->
-    <color name="transparent2" tools:ignore="MissingDefaultResource">#8000</color><!-- 透明 -->
-    <!-- 上传图片添加的颜色 -->
-    <color name="none_color" tools:ignore="MissingDefaultResource">#00000000</color>
-    <color name="plugin_camera_black" tools:ignore="MissingDefaultResource">#000000</color>
-    <color name="albumback" tools:ignore="MissingDefaultResource">#E1E0DE</color>
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--云问诊-->
+    <color name="cloud_text_main">#00CB83</color>
+    <!--<color name="cloud_split_line">#cccccc</color>-->
+    <color name="cloud_split_line">#eeeeee</color>
+    <color name="cloud_gv_tv">#646464</color>
+    <color name="cloud_tv_price">#DE3C3F</color>
+    <color name="cloud_rb_text">#323232</color>
+    <color name="cloud_all_bg">#F7F7F7</color>
+    <color name="cloud_goods_title">#303332</color>
+    <color name="cloud_goods_des">#909090</color>
+    <color name="cloud_goods_tab_nor">#424242</color>
+    <color name="touming">#2000</color>
+    <color name="undelete_btn">#ffb5b5</color>
+    <color name="delete_btn">#FF4646</color>
+
+    <color name="cart_red">#F64000</color>
+
+    <color name="province_line_border">#C7C7C7</color>
+    <!-- window background color -->
+    <color name="activity_background">#fff</color>
+
+    <color name="back_pressed">#5000</color>
+    <color name="_pressed">#3000</color>
+    <color name="lightly_pressed">#1000</color>
+   
+    <!-- 分隔线颜色 -->
+    <color name="split_line">#e1e1e1</color>
+
+    <!-- 密码和短息登录 -->
+    <color name="mima">#31c27c</color>
+    <color name="duanxin">#333333</color>
+
+    <!-- 商品分类单位格背景色 -->
+    <color name="goods_cell_bg">#f6f6f6</color>
+
+    <color name="sort_item_selector_bg">#fff6f6f6</color>
+
+    <color name="gray_bg">#f6f6f6</color>
+    <color name="dark_gray">#808080</color>
+
+    <color name="line_color">#dcdcdc</color>
+    <color name="coupon_gray">#D1D1D1</color>
+    
+    <color name="text_blue">#0192ff</color>
+    <color name="text_tip">#b93419</color>
+    <color name="cloud_text_hui">#909090</color>
+    <color name="cloud_text_hei">#323232</color>
+	<color name="address_edit">#ff0091ff</color>
+	<color name="address_normal">#ff666666</color>
+	<color name="gray_press">#bfbfbf</color>
+	<color name="gray_80">#808080</color>
+	<color name="coupon_backgound">#FFA500</color>
+	<!--<color name="home_container">#FF311C</color>-->
+    <color name="home_container">#66000000</color>
+
+	 <color name="menu_bg">#ff1e1e1e</color>
+    <color name="white">#ffffff</color>
+    <color name="white_12">#12ffffff</color>
+    <color name="white_25">#40000000</color>
+    <color name="white_gray">#ff888888</color>
+    <color name="black">#ff000000</color>
+    <color name="black00">#000000</color>
+    <color name="black47">#474747</color>
+    <color name="black_90">#9f000000</color>
+    <color name="gray">#ff7d7d7d</color>
+    <color name="white_40">#99ffffff</color>
+    <color name="gray_3">#ff333333</color>
+    <color name="orange">#ffff740f</color>
+    <color name="blue">#4D81EF</color>
+    <color name="red">#ffff0000</color>
+    <color name="pink_tran">#40ff0000</color>
+    <color name="my_letao_blue">#ff00aeef</color>
+    <color name="price_blue">#ff006aa6</color>
+    <color name="evaluate_red">#fff01d00</color>
+    <color name="transparent">#00000000</color>
+    <color name="transparent_fff">#00ffffff</color>
+    <color name="transparent_12">#12000000</color>
+    <color name="transparent_fff_12">#66ffffff</color>
+    <color name="transparent_40">#99000000</color>
+    <color name="transparent_400">#99ffffff</color>
+    <color name="transparent_gray">#607d7d7d</color>
+    <color name="transparent_gray1">#aa000000</color>
+    <color name="brand_gallery_gray">#ff9d9d9d</color>
+    <color name="brand_gallery_blue">#ff00a6e3</color>
+    <color name="title_gray">#ff4e4e4e</color>
+    <color name="note_gray">#66000000</color>
+    <color name="light_blue">#ff98e5ff</color>
+    <color name="indent_gray">#ffeaeaea</color>
+    <color name="pink">#ffe43870</color>
+    <color name="my_letao_pink">#ffe2185b</color>
+    <color name="yellow">#ffe87215</color>
+    <color name="home_list_color">#ff666666</color>
+    <color name="shopping_indent_address_gray">#ff828282</color>
+    <color name="productlist_title_gray">#ff5b5b5b</color>
+    <color name="commodity_sort_chooce_blue">#ff006aa6</color>
+    <color name="green_for_coupon">#ff115929</color>
+    <color name="classify_blue">#ff0078be</color>
+    <color name="title_color">#ffe9edf2</color>
+    <color name="list_text_color">#ff666666</color>
+    <color name="hint_text_color">#ffbebebe</color>
+    <color name="blueness">#ffacd039</color>
+    <color name="search_background_color">#fff0f0f0</color>
+    <color name="background_color">#ffe6e6e6</color>
+    <color name="list_children_text_color">#ffb2b2b2</color>
+    <color name="product_name_color">#ff3c7dd0</color>
+    <color name="choose_color">#ff4081d1</color>
+    <color name="logistics_text_bg">#fff2f2f2</color>
+    <color name="warranty_title_color">#ffb42828</color>
+    <color name="item_pink_bg">#ffffd2e1</color>
+    <color name="red_pao">#ffd80000</color>
+    <color name="red_cart">#f4554d</color>
+
+    <color name="gray_background">#999999</color>
+    <color name="red_ba3419">#ba3419</color>
+    <color name="red_status">#EF4138</color>
+    <color name="text_gray">#666666</color>
+    
+    <!-- 怡康药业配色 -->
+    <color name="main_color">#00CB83</color>
+    <color name="filter_color">#0392fb</color>
+    <color name="yk_orange">#fe5305</color>
+    <color name="color_gray">#acacac</color>
+    <color name="color_blue">#2a9ee7</color>
+    <color name="color_red">#db2001</color>
+    <color name="color_green">#49c272</color>
+    <color name="color_pink">#fa5564</color>
+    <color name="color_FF9600">#FF9600</color>
+
+    <!-- 扫码 -->
+     <color name="contents_text">#ff000000</color>
+  <color name="encode_view">#ffffffff</color>
+  <color name="help_button_view">#ffcccccc</color>
+  <color name="help_view">#ff404040</color>
+  <color name="possible_result_points">#c0ffff00</color>  
+  <color name="result_image_border">#ffffffff</color>
+  <color name="result_minor_text">#ffc0c0c0</color>
+  <color name="result_points">#c000ff00</color>
+  <color name="result_text">#ffffffff</color>
+  <color name="result_view">#b0000000</color>
+  <color name="sbc_header_text">#ff808080</color>
+  <color name="sbc_header_view">#ffffffff</color>
+  <color name="sbc_list_item">#fffff0e0</color>
+  <color name="sbc_layout_view">#ffffffff</color>
+  <color name="sbc_page_number_text">#ff000000</color>
+  <color name="sbc_snippet_text">#ff4b4b4b</color>
+  <color name="share_text">#ff000000</color>
+  <color name="share_view">#ffffffff</color>
+  <color name="status_view">#50000000</color>
+  <color name="status_text">#ffffffff</color>
+  <color name="viewfinder_frame">#ff000000</color>
+  <color name="viewfinder_laser">#ffff0000</color>
+  <color name="viewfinder_mask">#60000000</color>
+   <color name="bt">#99ba3419</color>
+    <!--云医院-->
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorBlue">#E5F0FF</color>
+    <color name="pouple">#7b68ee</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="text_color_me">#222222</color>
+    <color name="red_dark">#ffb52121</color>
+    <color name="red_light">#ffcd2222</color>
+    <color name="yellow_normal">#FBBD2E</color>
+    <color name="yellow_pressed">#D89D14</color>
+    <color name="gray_frame">#E9EAE9</color>
+    <!-- 文本颜色规格 -->
+    <color name="TitleBarText">#222222</color>  <!-- TitleBar文字 -->
+    <color name="bodyTitleText">#222222</color>  <!-- 正文标题 -->
+    <color name="text_color">#333333</color>  <!-- 正文标题 -->
+    <color name="bodyText">#474747</color>  <!-- 正文 -->
+    <color name="supportText">#909090</color>  <!-- 辅助性文字 -->
+    <color name="remindText">#999999</color>  <!-- 提示性文字 -->
+
+    <color name="line_gray">#D3D3D3</color>  <!-- white   -->
+    <color name="twosearch_pressed">#31C27C</color>
 
 
-    <color name="style_red" tools:ignore="MissingDefaultResource">#ff4c41</color>
-    <color name="style_divider_color" tools:ignore="MissingDefaultResource">#C9C7CD</color>
+    <!-- 按钮颜色规格 -->
+    <color name="normal_green">#31c27c</color>  <!-- 一般按钮 -->
+    <color name="normal_green2">#54FF9F</color>
+    <color name="normal_buttonPressed">#1aa05f</color>
+    <color name="pay_buttonNormal">#f16868</color>  <!-- 支付按钮 -->
+    <color name="pay_buttonPressed">#cc4343</color>
 
+
+    <color name="dept_textColor_selected">#FF1C94EA</color>
+    <color name="dept_textColor_unselected">#000000</color>
+    <color name="d_d_line">#CCCCCC</color>
+    <color name="d_d_text">#909090</color>
+    <color name="d_d_title_text">#646464</color>
+    <color name="d_d_body_text">#404040</color>
+    <color name="d_d_orange">#F57623</color>
+    <color name="text">#4D4D4D</color>
+    <color name="golden_color">#FDEF7D</color>
+    <color name="brown_color">#AA4E20</color>
+    <color name="golden2_color">#FFDFA6</color>
+    <color name="golden2_color_tran">#88FFDFA6</color>
+
+    <!--云信-->
+    <color name="grey">#333333</color>
     <color name="global_bg">#9000</color>
     <color name="color_green_01d9ae">#01D9AE</color>
+    <color name="color_blue_0888ff">#0888ff</color>
     <color name="color_gray_d9d9d9">#d9d9d9</color>
+    <color name="action_bar_tittle_color_555555">#555555</color>
+    <color name="grey_white">#F7F7F7</color>
+    <color name="grey_white_has_alpha">#66FAFAFA</color>
+    <color name="color_network_bar_bg_ee4b62">#ee4b62</color>
+    <color name="color_black_333333">#333333</color>
+    <color name="color_grey_999999">#999999</color>
+    <color name="color_grey_888888">#888888</color>
     <color name="color_activity_blue_bg">#f7389fff</color>
+    <color name="color_green_00ae8c">#00ae8c</color>
     <color name="split_line_grey_color_d9d9d9">#D9D9D9</color>
     <color name="green_4DC0A4">#4DC0A4</color>
     <color name="gray7">#c5c4c4</color>
     <color name="GreyWhite">#F7F7F7</color>
+    <color name="color_register_text_normal_1ca086">#1ca086</color>
+    <color name="color_register_text_normal_246b61">#246b61</color>
+    <color name="color_register_text_disable_39b79d">#39b79d</color>
     <color name="im_list_select_hover">#dbdbdb</color>
     <color name="color_aaaaaa_content_text">#ffaaaaaa</color>
     <color name="title_color_01d9ae">#01D9AE</color>
     <color name="color_b3b3b3">#b3b3b3</color>
-    <color name="color_red_ccfa3c55">#ccfa3c55</color>
-    <color name="color_black_b3000000">#b3000000</color>
-    <color name="color_grey_eaeaea">#eaeaea</color>
-    <color name="color_black_333333">#333333</color>
-    <color name="color_grey_999999">#999999</color>
-    <color name="color_grey_555555" tools:ignore="MissingDefaultResource">#555555</color>
     <color name="color_green_disable">#a2efe0</color>
     <color name="color_green_00d3a9">#ff00D3A9</color>
-    <color name="color_blue_0888ff">#0888ff</color>
-    <color name="action_bar_black_title_1f1f1f">#1f1f1f</color>
-    <color name="action_bar_black_title_color">#252525</color>
-    <color name="contact_search_hit">#02d3a9</color>
-    <color name="color_black_333333_90_transparent">#e5333333</color>
-    <color name="color_black_000000_88_transparent">#e0000000</color>
+    <color name="color_red_ccfa3c55">#ccfa3c55</color>
+    <color name="color_black_b3000000">#b3000000</color>
+    <color name="color_white_66ffffff">#66ffffff</color>
+    <color name="color_white_ffffffff">#ffffffff</color>
+    <color name="color_blue_1081ea">#1081ea</color>
+    <color name="color_grey_eaeaea">#eaeaea</color>
+    <color name="color_green_4bbda2">#4bbda2</color>
+    <color name="color_yellow_fcf3cd">#fcf3cd</color>
+    <color name="color_blue_3a9efb">#3a9efb</color>
+    <color name="color_green_89fbff">#89fbff</color>
+    <color name="color_blue_e5eeff">#E5EEFF</color>
 
     <!-- main bg color -->
+    <color name="g_child_page_bg_color">#FFFFFF</color>
+    <color name="list_bg_color">#FFFFFF</color>
     <color name="main_bg_color">#FFFFFF</color>
 
     <!-- session -->
     <color name="color_message_default_bg">#e9ecf0</color>
     <color name="input_panel_text_color_757572">#757572</color>
     <color name="color_gray_cbd0d8">#cbd0d8</color>
+    <color name="help_color">#ff999999</color>
 
     <!-- image picker -->
     <color name="color_split_line_d9d9d9">#d9d9d9</color>
@@ -203,150 +257,48 @@
     <color name="contact_list_hover">#d9d9d9</color>
     <color name="contact_letter_idx_bg">#33000000</color>
     <color name="contacts_letters_color">#80807c</color>
-    <color name="color_background" tools:ignore="MissingDefaultResource">#ECF1F5</color>
+    <color name="bussiness_card_gridview_bg">#ECF1F5</color>
     <color name="press_mask">#33000000</color>
     <color name="color_grey_ababab">#ababab</color>
     <color name="color_yellow_796413">#796413</color>
     <color name="color_yellow_b39729">#b39729</color>
-    <color name="color_huii" tools:ignore="MissingDefaultResource">#A5A4A4</color>
-    <color name="color_hongi" tools:ignore="MissingDefaultResource">#f25b5b</color>
+    <color name="color_red_f04c62">#f04c62</color>
 
     <!-- setting -->
     <color name="color_black_ff333333">#ff333333</color>
     <color name="color_black_ff666666">#ff666666</color>
     <color name="color_black_ff999999">#ff999999</color>
     <color name="color_gray_bfc2c5">#bfc2c5</color>
-    <color name="percent60translucentBlack" tools:ignore="MissingDefaultResource">#99000000</color>
-    <color name="colorTranslucent" tools:ignore="MissingDefaultResource">#00000000</color>
-    <color name="faceunityYellow" tools:ignore="MissingDefaultResource">#ffcb15</color>
-    <color name="colorWhite" tools:ignore="MissingDefaultResource">#ffffffff</color>
-    <color name="unselect_gray" tools:ignore="MissingDefaultResource">#48ffffff</color>
-    <color name="c80000000" tools:ignore="MissingDefaultResource">#80000000</color>
-
-    <color name="c9">#777777</color>
-
-    <color name="colorAccent">#0accac</color>
-    <color name="transparent22" tools:ignore="MissingDefaultResource">#22ffffff</color>
-
-    <color name="colorTransparentBlack">#44777777</color>
-
-    <color name="line_btn">#BBBBBB</color>
-    <!--蒙版-->
-
-    <!--app主色调，背景色-->
-    <!--背景色-->
-    <!--app主题色，应用于导航，按钮-->
-    <!--主题色激活态，如按钮高亮-->
-    <!--红色标签/提示-->
-    <!--红色标签/提示高亮-->
-    <!--黄色色标签/提示-->
-    <!--黄色色标签/提示高亮-->
-    <!--黄色蒙版-->
-    <!--红色-->
-    <!--文字白色-->
-    <!--文字G1-->
-    <!--文字G2-->
-    <!--文字G3-->
-    <!--文字G4-->
-    <!--文字black-->
-    <!--gray1-->
-    <!--light gray-->
-    <!--gray2-->
-    <!--gray3-->
-    <!--gray4-->
-    <!--gray5-->
-    <!--gray6-->
-    <!--gray7-->
-    <!--gray8-->
-    <!--green-->
-
-
-    <!--蒙版-->
-
-    <!-- 40%不透明度 -->
-
-
-    <!--?xml version="1.0" encoding="UTF-8"?-->
-
-    <!-- 裁剪范围颜色 -->
-
-    <!--special color-->
-    <!--MainActivity item被选中的颜色-->
-    <color name="main_item_selected_color" tools:ignore="MissingDefaultResource">#555555</color>
-    <color name="main_item_unselected_color" tools:ignore="MissingDefaultResource">#2A2A2A</color>
-    <color name="main_item_divide_color" tools:ignore="MissingDefaultResource">#0d0d0d</color>
-
-    <color name="hlfTransparent">#30000000</color>
-
-    <color name="c8">#FFFFFF</color>
-
-    <color name="color_bottom_bar_background" tools:ignore="MissingDefaultResource">#222B48</color>
-    <color name="colorActivityBackground" tools:ignore="MissingDefaultResource">#F3F3F3</color>
-    <color name="colorTransparentGray" tools:ignore="MissingDefaultResource">#88ffffff</color>
-    <color name="colorDarkTransparentGray" tools:ignore="MissingDefaultResource">#a4000000</color>
-    <color name="colorLightTransparentGray" tools:ignore="MissingDefaultResource">#22ffffff</color>
-    <color name="color_input_dialog_background" tools:ignore="MissingDefaultResource">#b4ffffff</color>
-
-
-    <color name="colorDanmuMsg" tools:ignore="MissingDefaultResource">#30e7d5</color>
-
-    <color name="background" tools:ignore="MissingDefaultResource">#f3f3f3</color>
-    <color name="line" tools:ignore="MissingDefaultResource">#DDDDDD</color>
-    <color name="text_gray1" tools:ignore="MissingDefaultResource">#777777</color>
-    <!--蒙版-->
-
-    <!--背景色-->
-    <color name="colorBackground" tools:ignore="MissingDefaultResource">#F5F5F5</color>
-    <!--app主题色，应用于导航，按钮-->
-    <!--主题色激活态，如按钮高亮-->
-    <color name="colorLight" tools:ignore="MissingDefaultResource">#0accac</color>
-    <!--红色标签/提示-->
-    <!--红色标签/提示高亮-->
-    <!--黄色色标签/提示-->
-    <!--黄色色标签/提示高亮-->
-    <!--黄色蒙版-->
-    <!--红色-->
-    <color name="colorRed" tools:ignore="MissingDefaultResource">#FF3333</color>
-    <!--文字白色-->
-    <color name="colorTextWhite" tools:ignore="MissingDefaultResource">#FFFFFF</color>
-    <!--文字G1-->
-    <!--文字G2-->
-    <color name="colorTextG2" tools:ignore="MissingDefaultResource">#999999</color>
-    <!--文字G3-->
-    <color name="colorTextG3" tools:ignore="MissingDefaultResource">#666666</color>
-    <!--文字G4-->
-    <color name="colorTextG4" tools:ignore="MissingDefaultResource">#333333</color>
-    <!--文字black-->
-    <color name="colorTextBlack" tools:ignore="MissingDefaultResource">#000000</color>
-    <!--gray1-->
-    <color name="colorGray1" tools:ignore="MissingDefaultResource">#F0F0F0</color>
-    <!--light gray-->
-    <!--gray2-->
-    <color name="colorGray2" tools:ignore="MissingDefaultResource">#DCDCDC</color>
-    <!--gray3-->
-    <color name="colorGray3" tools:ignore="MissingDefaultResource">#C8C8C8</color>
-    <!--gray4-->
-    <color name="colorGray4" tools:ignore="MissingDefaultResource">#787878</color>
-    <!--gray5-->
-    <!--gray6-->
-    <color name="colorGray6" tools:ignore="MissingDefaultResource">#141414</color>
-    <!--gray7-->
-    <color name="colorGray7" tools:ignore="MissingDefaultResource">#D8D8D8</color>
-    <!--gray8-->
-    <!--green-->
-    <color name="colorGreen" tools:ignore="MissingDefaultResource">#0accac</color>
 
 
 
-    <color name="colorSendName" tools:ignore="MissingDefaultResource">#9966cc</color>
-    <color name="colorSendName1" tools:ignore="MissingDefaultResource">#F12B5B</color>
-    <color name="colorSendName2" tools:ignore="MissingDefaultResource">#2B7DE2</color>
-    <color name="colorSendName3" tools:ignore="MissingDefaultResource">#006599</color>
-    <color name="colorSendName4" tools:ignore="MissingDefaultResource">#FF7906</color>
-    <color name="colorSendName5" tools:ignore="MissingDefaultResource">#1FBCB6</color>
-    <color name="colorSendName6" tools:ignore="MissingDefaultResource">#FFAE1F</color>
-    <color name="colorSendName7" tools:ignore="MissingDefaultResource">#FF437D</color>
-    <!--蒙版-->
 
-    <color name="camera_video_grid_bg_color" tools:ignore="MissingDefaultResource">#F3F4F6</color>
+    <color name="action_bar_black_title_1f1f1f">#1f1f1f</color>
+    <color name="action_bar_black_title_color">#252525</color>
+    <color name="contact_search_hit">#02d3a9</color>
+    <color name="color_black_333333_90_transparent">#e5333333</color>
+    <color name="color_black_000000_88_transparent">#e0000000</color>
+
+    <color name="statu_zaixian">#31C27C</color>
+    <color name="statu_manglu">#F20E0E</color>
+    <color name="statu_lixian">#999999</color>
+
+
+    <color name="result_point_color">#C0FFFF00</color>
+    <color name="laser_color">#0F0</color>
+    <color name="corner_color">#00FF00</color>
+    <color name="pink_dark">#FAF0E6</color>
+    <color name="Moccasin">#FFE4B5</color>
+
+
+    <drawable name="draw_text_gray">#666666</drawable>
+    <drawable name="draw_text_green">#31c27c</drawable>
+
+
+    <color name="dark_gray_bg">#F5F5F5</color>
+    <color name="jmui_jpush_blue">#2DD0CF</color>
+    <color name="menu_item_back_pres_color">#2DD0CF</color>
+    <color name="btn_send_textcolor">@color/white</color>
+    <color name="chat_text_color">#0B1816</color>
+
 </resources>
