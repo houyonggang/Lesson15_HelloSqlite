@@ -5,180 +5,36 @@
     android:background="@color/white"
     android:orientation="vertical">
 
-    <ImageView
+    <RelativeLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:adjustViewBounds="true"
-        android:scaleType="fitStart"
-        android:src="@mipmap/login_bg" />
+        android:layout_height="wrap_content">
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="12dp"
-        android:orientation="horizontal">
-
-        <RelativeLayout
-            android:id="@+id/yanzhengmalogin"
-            android:layout_width="0dp"
-            android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:orientation="vertical">
-
-            <TextView
-                android:id="@+id/yanzhengmatv"
-                android:layout_width="wrap_content"
-                android:layout_height="match_parent"
-                android:layout_centerHorizontal="true"
-                android:gravity="center_vertical"
-                android:text="短信登录"
-                android:textColor="@color/cloud_text_main"
-                android:textSize="18sp" />
-
-            <ImageView
-                android:id="@+id/Right_line"
-                android:layout_width="76dp"
-                android:layout_height="4dp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/login_green_line" />
-
-        </RelativeLayout>
-
-
-        <RelativeLayout
-            android:id="@+id/mimalogin"
-            android:layout_width="0dp"
-            android:layout_height="49dp"
-            android:layout_weight="1">
-
-            <TextView
-                android:id="@+id/mimatv"
-                android:layout_width="wrap_content"
-                android:layout_height="49dp"
-                android:layout_centerHorizontal="true"
-                android:gravity="center_vertical"
-                android:text="密码登录"
-                android:textColor="#666666"
-                android:textSize="18sp" />
-
-            <ImageView
-                android:id="@+id/left_line"
-                android:layout_width="76dp"
-                android:layout_height="4dp"
-                android:layout_alignParentBottom="true"
-                android:layout_centerHorizontal="true"
-                android:src="@drawable/login_green_line"
-                android:visibility="gone" />
-
-        </RelativeLayout>
-    </LinearLayout>
-
-    <LinearLayout
-        android:id="@+id/yanzhengma"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="18dp"
-        android:orientation="vertical">
-
-        <EditText
-            android:id="@+id/yanzhengmaloginName"
+        <ImageView
             android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@null"
-            android:drawableLeft="@mipmap/login_phone"
-            android:drawablePadding="12dp"
-            android:gravity="center_vertical|left"
-            android:hint="输入手机号"
-            android:inputType="number"
-            android:maxLength="11"
-            android:paddingLeft="12dp"
-            android:singleLine="true"
-            android:textSize="16sp" />
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@color/gray_bg" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@color/white"
-            android:gravity="center_vertical"
-            android:paddingLeft="12dp">
-
-            <EditText
-                android:id="@+id/yanzhengmavc"
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight="1"
-                android:background="@color/white"
-                android:drawableLeft="@mipmap/login_key"
-                android:drawablePadding="12dp"
-                android:gravity="center_vertical|left"
-                android:hint="输入验证码"
-                android:inputType="number"
-                android:maxLength="6"
-                android:singleLine="true"
-                android:textSize="16sp" />
-
-            <TextView
-                android:id="@+id/yanzhengmavcBtn"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:background="@drawable/a_green_circle_login_line"
-                android:gravity="center"
-                android:paddingLeft="20dp"
-                android:paddingTop="10dp"
-                android:paddingRight="20dp"
-                android:paddingBottom="10dp"
-                android:text="获取验证码"
-                android:textColor="@color/cloud_text_main"
-                android:textSize="14sp" />
-        </LinearLayout>
-
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:layout_marginLeft="20dp"
-            android:layout_marginRight="20dp"
-            android:background="@color/gray_bg" />
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:scaleType="fitStart"
+            android:src="@mipmap/login_bg" />
 
         <TextView
-            android:id="@+id/yanzhengmaloginBtn"
             android:layout_width="match_parent"
-            android:layout_height="45dp"
-            android:layout_gravity="center_horizontal"
-            android:layout_marginLeft="20dp"
-            android:layout_marginTop="31dp"
-            android:layout_marginRight="20dp"
-            android:background="@drawable/a_green_circle_login_btn"
-            android:gravity="center"
-            android:text="登录"
-            android:textColor="#fff"
-            android:textSize="18sp" />
-
-    </LinearLayout>
-
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:gravity="center_horizontal"
+            android:text="@string/login1"
+            android:textColor="@color/white"
+            android:textSize="16sp" />
+    </RelativeLayout>
 
     <LinearLayout
-        android:id="@+id/mima"
+        android:id="@+id/mima_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginLeft="20dp"
         android:layout_marginTop="18dp"
         android:layout_marginRight="20dp"
         android:orientation="vertical"
-        android:visibility="gone">
+        android:visibility="visible">
 
         <EditText
             android:id="@+id/loginName"
@@ -214,50 +70,12 @@
             android:singleLine="true"
             android:textSize="16sp" />
 
-        <View
-            android:layout_width="match_parent"
-            android:layout_height="1dp"
-            android:background="@color/gray_bg" />
-
-        <LinearLayout
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="15sp"
-            android:gravity="center_vertical">
-
-            <CheckBox
-                android:id="@+id/autoLogin"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:background="@null"
-                android:button="@null"
-                android:drawableLeft="@drawable/check_box_selector"
-                android:drawablePadding="5dp"
-                android:paddingLeft="12dp"
-                android:text="@string/auto_login"
-                android:textColor="#666666"
-                android:textSize="@dimen/main_text" />
-
-            <TextView
-                android:id="@+id/forgetPW"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:gravity="right"
-                android:paddingRight="12dp"
-                android:text="@string/forget_password"
-                android:textColor="#666666"
-                android:textSize="@dimen/main_text" />
-        </LinearLayout>
-
-
         <TextView
             android:id="@+id/loginBtn"
             android:layout_width="345dp"
             android:layout_height="45dp"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="36dp"
+            android:layout_marginTop="15dp"
             android:background="@drawable/a_green_circle_login_btn"
             android:gravity="center"
             android:text="@string/login1"
@@ -272,13 +90,6 @@
         android:background="@color/line_color"
         android:visibility="invisible" />
 
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="10dp"
-        android:background="@color/line_color"
-        android:visibility="invisible" />
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -289,7 +100,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dp"
+            android:layout_marginTop="15dp"
             android:layout_marginBottom="15dp"
             android:gravity="center"
             android:text="@string/auth_login"
@@ -417,25 +228,5 @@
         android:text="没有账号，去注册"
         android:textColor="@color/text_color"
         android:textSize="14sp" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1" />
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:background="@color/line_color"
-        android:visibility="gone" />
-
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="45dp"
-        android:background="#fff"
-        android:gravity="center"
-        android:text="@string/login_regist_company_name"
-        android:textColor="#999999"
-        android:textSize="@dimen/company_name" />
 
 </LinearLayout>

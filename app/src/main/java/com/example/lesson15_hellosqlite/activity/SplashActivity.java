@@ -15,6 +15,8 @@ import android.os.Message;
 import com.example.lesson15_hellosqlite.MainActivity;
 import com.example.lesson15_hellosqlite.R;
 import com.example.lesson15_hellosqlite.utils.Session;
+import com.example.lesson15_hellosqlite.utils.sharePreferences.IUserPreferences;
+import com.example.lesson15_hellosqlite.utils.sharePreferences.SharedPreferencesManager;
 
 /**
  * 启动页
@@ -23,6 +25,7 @@ public class SplashActivity extends AppCompatActivity {
 
     public static final String TAG = "SplashActivity";
     private Context mContext;
+    private IUserPreferences iUserPreferences;
 
     private Handler handler = new Handler(Looper.myLooper()) {
         @Override
@@ -30,10 +33,14 @@ public class SplashActivity extends AppCompatActivity {
             super.handleMessage(msg);
             switch (msg.what) {
                 case 1:
-                    startToActivity(LoginActivity.class);
+                    Intent intent = new Intent(mContext, LoginActivity.class);
+                    startActivity(intent);
+                    finish();
                     break;
                 case 2:
-                    startToActivity(MainActivity.class);
+                    Intent intent1 = new Intent(mContext, MainActivity.class);
+                    startActivity(intent1);
+                    finish();
                     break;
             }
         }
@@ -44,23 +51,17 @@ public class SplashActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_splash_layout);
         mContext = SplashActivity.this;
+        iUserPreferences = SharedPreferencesManager.getInstance().getUserPreferences();
         initLayout();
     }
 
     private void initLayout() {
         //name 为存储的xml文件名
-        final SharedPreferences sharedPreferences = getSharedPreferences("config", Context.MODE_PRIVATE);//创建一个SharedPreferences对象
-        boolean isLogin = sharedPreferences.getBoolean(Session.IS_LOGIN, false);
+        boolean isLogin = iUserPreferences.getLoginStatus(Session.LOGIN_STATUS);
         if (isLogin) {//true 已登录
             handler.sendEmptyMessageDelayed(2, 1000);
         } else {
             handler.sendEmptyMessageDelayed(1, 1000);
         }
-    }
-
-    private void startToActivity(Class activity) {
-        Intent intent = new Intent(mContext, activity);
-        startActivity(intent);
-        finish();
     }
 }

@@ -55,4 +55,6 @@ dependencies {
     //okhttp3
     implementation 'com.squareup.okhttp3:okhttp:4.2.2'
     implementation 'com.aliyun.ams:alicloud-android-hotfix:3.2.19'
+    /*日期选择器*/
+    implementation 'cn.aigestudio.wheelpicker:WheelPicker:1.1.2'
 }

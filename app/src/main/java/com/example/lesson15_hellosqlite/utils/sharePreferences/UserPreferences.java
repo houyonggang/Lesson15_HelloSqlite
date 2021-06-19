@@ -9,8 +9,8 @@ import android.content.Context;
  * desc   : 保存用户信息并提交
  * version: 1.0
  */
-public class UserPreferences extends DefaultPreference implements IUserPreferences{
-    private static final String TAG ="UserPreferences";
+public class UserPreferences extends DefaultPreference implements IUserPreferences {
+    private static final String TAG = "UserPreferences";
 
     public UserPreferences(Context context) {
         super(context);
@@ -23,21 +23,31 @@ public class UserPreferences extends DefaultPreference implements IUserPreferenc
 
     @Override
     public String getUserName(String key) {
-        return getPreferences().getString(key,null);
+        return getPreferences().getString(key, null);
     }
 
     @Override
     public void saveUserName(String key, String value) {
-        getPreferences().putString(key,value).commit();
+        getPreferences().putString(key, value).commit();
     }
 
     @Override
     public String getPassword(String key) {
-        return getPreferences().getString(key,null);
+        return getPreferences().getString(key, null);
     }
 
     @Override
     public void savePassword(String key, String value) {
-        getPreferences().putString(key,value).commit();
+        getPreferences().putString(key, value).commit();
+    }
+
+    @Override
+    public boolean getLoginStatus(String key) {
+        return getPreferences().getBoolean(key, false);
+    }
+
+    @Override
+    public void saveLoginStatus(String key, boolean logonStatus) {
+        getPreferences().putBoolean(key, logonStatus).commit();
     }
 }

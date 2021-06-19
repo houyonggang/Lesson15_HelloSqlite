@@ -17,4 +17,7 @@ public interface IUserPreferences {
 
     void savePassword(String key, String value);
 
+    boolean getLoginStatus(String key);
+
+    void saveLoginStatus(String key, boolean logonStatus);
 }
