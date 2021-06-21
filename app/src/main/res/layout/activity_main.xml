@@ -1,62 +1,134 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     tools:context=".MainActivity">
 
-    <TextView
-        android:id="@+id/TextView01"
-        android:layout_width="wrap_content"
+    <!--sqlite 相关view-->
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="SQLite基本操作"
-        android:textSize="20sp" />
+        android:orientation="vertical"
+        android:visibility="gone">
 
-    <Button
-        android:id="@+id/Button01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="增 | insert"
-        android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/Button02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="删 | delete"
-        android:textSize="20sp" />
+        <TextView
+            android:id="@+id/TextView01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="SQLite基本操作"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/Button03"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="改 | update"
-        android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="增 | insert"
+            android:textSize="20sp" />
 
-    <Button
-        android:id="@+id/Button04"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:text="查 | select"
-        android:textSize="20sp" />
+        <Button
+            android:id="@+id/Button02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="删 | delete"
+            android:textSize="20sp" />
 
-    <Spinner
-        android:id="@+id/Spinner01"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"/>
+        <Button
+            android:id="@+id/Button03"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="改 | update"
+            android:textSize="20sp" />
 
-    <TextView
-        android:id="@+id/TextView02"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="5dp"
-        android:textSize="20sp" />
-</LinearLayout>
+        <Button
+            android:id="@+id/Button04"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="查 | select"
+            android:textSize="20sp" />
+
+        <Spinner
+            android:id="@+id/Spinner01"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+
+        <TextView
+            android:id="@+id/TextView02"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingBottom="50dp" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="58dp"
+        android:layout_alignParentBottom="true"
+        android:background="@color/transparent_fff">
+
+        <RadioGroup
+            android:id="@+id/tabBar"
+            android:layout_width="match_parent"
+            android:layout_height="46dp"
+            android:layout_alignParentBottom="true"
+            android:layout_gravity="bottom"
+            android:layout_marginBottom="0dp"
+            android:background="@color/indent_gray"
+            android:gravity="bottom"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/homeRadio"
+                style="@style/TabBarItem_Home_Theme"
+                android:text="首页" />
+
+            <RadioButton
+                android:id="@+id/storeRadio"
+                style="@style/TabBarItem_Store_Theme"
+                android:text="商城" />
+
+
+            <RadioButton
+                android:id="@+id/goodsRadio"
+                style="@style/TabBarItem_Goods_Theme"
+                android:text="推荐"
+                android:visibility="gone" />
+
+            <RadioButton
+                android:id="@+id/cartRadio"
+                style="@style/TabBarItem_Cart_Theme"
+                android:text="推荐" />
+
+            <RadioButton
+                android:id="@+id/memberRadio"
+                style="@style/TabBarItem_Member_Theme"
+                android:text="我的" />
+        </RadioGroup>
+
+
+        <ImageView
+            android:id="@+id/activity_id"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_centerHorizontal="true"
+            android:paddingLeft="@dimen/album_dp_2"
+            android:paddingTop="@dimen/album_dp_4"
+            android:paddingRight="@dimen/album_dp_2"
+            android:paddingBottom="@dimen/album_dp_2"
+            android:src="@mipmap/activity_icon"
+            android:visibility="gone" />
+    </RelativeLayout>
+</RelativeLayout>
